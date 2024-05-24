@@ -8,7 +8,7 @@
       "run": "pm2 start . --deep-monitoring --attach --name SilvaTechB || node .",
       "Kingjux ": "pm2 start . --deep-monitoring --attach --name SilvaTechB || node .",
       "start": "pm2 start . --attach --name SilvaTechB",
-      "stop": "pm2 stop Kingjux",
+      "stop": "pm2 stop SilvaTechB",
       "heroku-postbuild": "git clone https://github.com/SilvaTechaB/SilvaKe.git temp && mv temp/.git .git && rm -rf temp && npx puppeteer@latest install  --y",
       "fis-heroku-postbuild": "git clone https://github.com/SilvaTechaB/SilvaKe.git temp1 && rsync -av temp1/* ./ && rsync -av temp1/.* ./ && rm -rf temp1 && npm i && npx puppeteer@latest install",
       "postinstall": "npx puppeteer@latest install --y"
