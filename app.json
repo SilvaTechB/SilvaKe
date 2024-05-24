@@ -1,15 +1,15 @@
 {
-  "name": "Venocyber-md",
-  "description": "Simple WhatsApp Bot",
-  "logo": "https://telegra.ph/file/12b0fb245e6b8ba4bf718.jpg",
-  "keywords": ["Venocyber-md", "VENOCYBER", "VENOCYBER MD","VENOCYBER MD wabot","Venocyber","Venocybertech"],
+  "name": "𝑺𝒊𝒍𝒗𝒂 𝒕𝒆𝒄𝒉 ❤️🫂",
+  "description": "your number 1 bot created by silva tech 254700143167",
+  "logo": "https://telegra.ph/file/751eef74109e0e5c8916c.jpg",
+  "keywords": ["silva-md", "SILVA", "SILVAke MD","Silva MD wabot","silva","silvatech"],
   "success_url": "/",
   "stack": "container",
 
   "env": {
     "OWNER_NAME": {
       "description": "Name for Bot Owner",
-      "value": "VENOCYBER-𝐓𝐄𝐂𝐇",
+      "value": "𝑺𝒊𝒍𝒗𝒂 𝒕𝒆𝒄𝒉",
       "required": true
     },
 
@@ -27,17 +27,17 @@
     "BOT_NAME": {
       "description": " NAME FOR BOT",
       "required": false,
-      "value": "VENOCYBER-𝐌𝐃"
+      "value": "𝑺𝒊𝒍𝒗𝒂 𝒕𝒆𝒄𝒉"
     },
     "TZ": {
       "description": "Put TIME_ZONE according to your location",
       "required": false,
-      "value": "Africa/Dar es salaam"
+      "value": "Africa/Nairobi"
     },
     "READ_COMMAND": {
       "description": " Read bot cmds",
       "required": false,
-      "value": "false"
+      "value": "true"
     },
     "WARN_COUNT": {
       "description": " Warn count for users to kick/block when warn limit exceed!",
@@ -62,7 +62,7 @@
     "WAPRESENCE": {
       "description": "Fill the value: 'unavailable'(for nothing) | 'available'(for alwaysonline) | 'composing'(for typing) | 'recording' | 'paused' ",
       "required": false,
-      "value": "available"
+      "value": "recording"
     },
     "AUTO_READ_STATUS": {
       "description": "Fill the value true if you want bot view your Statuses.",
@@ -72,7 +72,7 @@
     "MSGS_IN_LOG": {
       "description": "Fill the value -true- if you want to see Messages in logs.",
       "required": false,
-      "value": "false"
+      "value": "true"
     },
      "OPEN_API_KEY": {
       "description": "put your OPEN_API_KEY here to access chatgpt.",
@@ -94,7 +94,7 @@
     },
     "OWNER_NUMBER": {
       "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\")",
-      "value": "255625774543"
+      "value": "254700143167, 254743706010"
     },
     "SESSION_ID": {
       "description": "put your SESSION_ID here.",
@@ -102,16 +102,16 @@
     },
     "MODE": {
       "description": "Worktype of your bot. Use public or private, if it is private then only bot number can use it. If public then everyone can use it.",
-      "value": "private"
+      "value": "public"
     },
     "PACK_NAME": {
       "description": "Put Sticker Pack_Name.",
-      "value": "VENOCYBER",
+      "value": "𝑺𝒊𝒍𝒗𝒂 𝒕𝒆𝒄𝒉",
       "required": false
     },
     "PACK_AUTHER": {
       "description": "Put Sticker Author_Name.",
-      "value": "VENOCYBER BOTS 🧚",
+      "value": "your number 1 bot ❤️🫂",
       "required": false
     }
   },
